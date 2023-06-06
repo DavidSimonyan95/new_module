@@ -1,5 +1,5 @@
 {
-  "name": "newmodule",
+  "name": "new_module_counter",
   "version": "1.0.0",
   "description": "My first module",
   "main": "./dist/cjs/index.js",
@@ -19,15 +19,15 @@
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
     "test": "jest --config jestconfig.json"
   },
-  "peerDependencies": { 
-    "react": ">=16" 
+  "peerDependencies": {
+    "react": ">=16"
   },
   "files": [
     "dist",
     "LICENSE",
     "README.md"
   ],
-  "keywords": [ 
+  "keywords": [
     "react",
     "typescript",
     "awesome-project"
@@ -38,6 +38,7 @@
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.2",
     "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "@typescript-eslint/parser": "^5.59.8",
     "eslint": "^8.42.0",
@@ -48,6 +49,8 @@
     "jest": "^29.5.0",
     "jest-canvas-mock": "^2.5.1",
     "jest-environment-jsdom": "^29.5.0",
+    "my-react-typescript-package": "^1.0.0",
+    "parcel": "^2.9.1",
     "prettier": "^2.8.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

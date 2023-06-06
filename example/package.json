@@ -1,0 +1,20 @@
+{
+    "name": "example",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "parcel src/index.html"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.8",
+        "@types/react-dom": "^18.2.4",
+        "my-react-typescript-package": "^1.0.0",
+        "parcel": "^2.9.1",
+        "process": "^0.11.10",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "dependencies": {
+        "new_module_counter": "^1.0.0"
+    }
+}
